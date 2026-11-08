@@ -7,7 +7,7 @@ Education: 10th grade, Specialized Educational Scientific Center of Novosibirsk 
 Achievement: The project participated in the ISSC (International Scientific Student Conference) in the "Robotics and Engineering Modeling (school section)" direction and won a prize.
 
 **About the Project:**
-This project is an adaptive street lighting control system based on ESP microcontrollers, designed to optimize energy consumption and improve road safety.\
+This project is an adaptive street lighting control system based on ESP microcontrollers, designed to optimize energy consumption and improve road safety.
 
 **The Problem**
 In Russia, a significant part of roads (especially local and rural ones) lacks regular lighting. According to Rosavtodor, only about 54.6% of roads are illuminated. The lack of light is a contributing factor in 15–20% of nighttime pedestrian accidents. At the same time, there is an irrational use of electricity on low-traffic sections.
