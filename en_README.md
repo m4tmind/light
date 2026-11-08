@@ -19,31 +19,21 @@ roads.
 
 **System Model Variants**
 Three concepts were considered and tested during the work:
-
-    Simple model: An ultrasonic/laser sensor measures the distance and turns on the light. Devices operate independently.
-
-    Complex model (Mesh network): Object detection, speed measurement (via Wi-Fi signal), data packet formation, and transmission via a mesh network (without a router) to subsequent devices for proactive activation.
-
-    Advanced model (AI): Using a camera (ESP32-CAM) and a trained neural network to recognize objects and their speed, followed by data transmission over the network.
+   * Simple model: An ultrasonic/laser sensor measures the distance and turns on the light. Devices operate independently.
+   * Complex model (Mesh network): Object detection, speed measurement (via Wi-Fi signal), data packet formation, and transmission via a mesh network (without a router) to subsequent devices for proactive activation.
+   * Advanced model (AI): Using a camera (ESP32-CAM) and a trained neural network to recognize objects and their speed, followed by data transmission over the network.
     *(Currently, a prototype based on the first model has been implemented and brought to stable operation using FreeRTOS multitasking).*
 
 **Hardware (1:100 Scale Model)**
 
 The following components were used to build the model:
-
-    Microcontroller: ESP32 (ESP32-S3 N16R8)
-
-    Sensors:
-
-        Ultrasonic distance sensor HC-SR04
-
-        Laser distance sensor VL53L0X (more accurate)
-
-        Light intensity sensor GY-302 (BH1750)
-
-        Indication and sound: 128x64 OLED display, speaker, LEDs.
-
-        Other: 220 Ohm resistors, connecting wires, breadboard, plywood mockup.
+   * Microcontroller: ESP32 (ESP32-S3 N16R8)
+   * Sensors:
+       * Ultrasonic distance sensor HC-SR04
+       * Laser distance sensor VL53L0X (more accurate)
+       * Light intensity sensor GY-302 (BH1750)
+       * Indication and sound: 128x64 OLED display, speaker, LEDs.
+       * Other: 220 Ohm resistors, connecting wires, breadboard, plywood mockup.
 
 **Software Implementation**
 The code is written in the Arduino IDE environment using FreeRTOS for ESP32.
@@ -52,12 +42,9 @@ Noise reduction: a median and exponential smoothing (filtering) algorithm is imp
 Multitasking: Interrupts (ISR) are used to read the echo, and a separate FreeRTOS task polls the sensor, which prevents CPU blocking.
 
 **Future Perspectives:**
+   * Refining the device using more accurate components.
+   * Integrating the ESP32-CAM and training a neural network to detect objects in adverse weather conditions.
+   * Setting up a mesh network (ESP-WIFI-MESH or ESP-NOW) for synchronous operation of streetlights on the highway.
+   * Adapting the system for connection to real high-voltage streetlights via relays.
 
-    Refining the device using more accurate components.
-
-    Integrating the ESP32-CAM and training a neural network to detect objects in adverse weather conditions.
-
-    Setting up a mesh network (ESP-WIFI-MESH or ESP-NOW) for synchronous operation of streetlights on the highway.
-
-    Adapting the system for connection to real high-voltage streetlights via relays.
-
+*More details in the abstract and attached files in Russian*
