@@ -1,9 +1,9 @@
 **Development of an Automation and Regulation System for Road Lighting**
 
 **About the Author:**
-Author: Maria Andreevna Terekhova
-Age: 16 years old
-Education: 10th grade, Specialized Educational Scientific Center of Novosibirsk State University (SESC NSU)
+Author: Maria Andreevna Terekhova\
+Age: 16 years old\
+Education: 10th grade, Specialized Educational Scientific Center of Novosibirsk State University (SESC NSU)\
 Achievement: The project participated in the ISSC (International Scientific Student Conference) in the "Robotics and Engineering Modeling (school section)" direction and won a prize.\
 
 **About the Project:**
