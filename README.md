@@ -1,6 +1,6 @@
 **Development of an Automation and Regulation System for Road Lighting**
 
-**About the Author:**
+**About the Author:**\
 Author: Maria Andreevna Terekhova\
 Age: 16 years old\
 Education: 10th grade, Specialized Educational Scientific Center of Novosibirsk State University (SESC NSU)\
