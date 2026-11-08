@@ -4,7 +4,7 @@
 Author: Maria Andreevna Terekhova\
 Age: 16 years old\
 Education: 10th grade, Specialized Educational Scientific Center of Novosibirsk State University (SESC NSU)\
-Achievement: The project participated in the ISSC (International Scientific Student Conference) in the "Robotics and Engineering Modeling (school section)" direction and won a prize.\
+Achievement: The project participated in the ISSC (International Scientific Student Conference) in the "Robotics and Engineering Modeling (school section)" direction and won a prize.
 
 **About the Project:**
 This project is an adaptive street lighting control system based on ESP microcontrollers, designed to optimize energy consumption and improve road safety.\
